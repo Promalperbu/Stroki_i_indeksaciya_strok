@@ -1,0 +1,15 @@
+name = input("Название товара")
+cena = input("Цена товара")
+ves = input("Вес товара")
+kupura = input("Количество денег у пользователя")
+cena = float (cena)
+ves = float (ves)
+kupura = float (kupura)
+summa = str (cena*ves)
+sdacha = str (kupura-cena*ves)
+kupura = str (kupura)
+cena = str (cena)
+ves = str (ves)
+print('Чек ' + name + '-' + ves  + 'кг - ' + cena + 'руб/кг Итого: ' + summa + 'руб Внесено: ' + kupura + 'руб Сдача: ' + sdacha)
+
+ 
